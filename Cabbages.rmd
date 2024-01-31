@@ -45,6 +45,11 @@ The boxplot shows VitC over Cult, the data in the boxplot represents the data th
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+  
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+The comparison between the two data analysis from the boxplot c39 and c52 shows the exact median for both and shows aditional data such as height from the boxplot which is being represented in Q3 and Q1.
 
 ## Inferential Results
 
